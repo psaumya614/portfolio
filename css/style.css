@@ -105,6 +105,14 @@ h1,h2,h3,h4,h5,h6,p{
  right: -60px;
 }
 
+
+.saumyaimg{
+  margin-top: 45px;
+  margin-left: -100px;
+  right: -360px;
+  border-radius: 15px;
+}
+
 .display-1{
   font-size: 160px;
   font-weight: 1000;
