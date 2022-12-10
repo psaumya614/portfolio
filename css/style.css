@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 .text-stroke-header {
-  -webkit-text-stroke: 3px #ffffff;
+  -webkit-text-stroke: 3z #ffffff;
   color: transparent;
 }
 
@@ -149,6 +149,7 @@ h1,h2,h3,h4,h5,h6,p{
     margin-left: 20px;
     right: 0px;
     top: 30px;
+  
    }
 }
 /*===================== Progress Bar ====================*/
@@ -286,4 +287,49 @@ h1,h2,h3,h4,h5,h6,p{
   100% {
     transform: translateY(-15px);
   }
+}
+
+@media (max-width: 400px) {
+  .about-img{
+    margin-left: 20px;
+    right: 0px;
+    top: 30px;
+    
+   }
+}
+
+@media(max-width:400px){
+  html{
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 767px) {
+  #hidden-mobile {
+    display: none;
+  }
+}
+
+@media(max-width:767px){
+#margineTop{
+  margin-top: 90px;
+  margin-bottom: 150px;
+  /* padding-bottom: 20rem; */
+}
+}
+
+/* @media(max-width:767px){
+ 
+} */
+
+
+@media screen and (min-width: 300px) and (max-device-width: 768px) {
+  #img {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 50%;
+}
 }
