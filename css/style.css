@@ -326,8 +326,8 @@ h1,h2,h3,h4,h5,h6,p{
 @media(max-device-width: 768px) {
   #img {
   
-    margin-left: -200px;
-    margin-right: 350px;
+    margin-left: -100px;
+    margin-right: 0px;
     
 }
 }
