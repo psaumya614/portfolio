@@ -100,10 +100,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 /*===================== Hero section ======================*/
 
-.about-img{
+/* .about-img{
  margin-left: -100px;
  right: -60px;
-}
+} */
 
 
 .saumyaimg{
@@ -323,13 +323,11 @@ h1,h2,h3,h4,h5,h6,p{
 } */
 
 
-@media screen and (min-width: 300px) and (max-device-width: 768px) {
+@media(max-device-width: 768px) {
   #img {
-    display: block;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 50%;
+  
+    margin-left: -200px;
+    margin-right: 350px;
+    
 }
 }
